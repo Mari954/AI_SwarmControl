@@ -1,3 +1,13 @@
+//-------------------------------------------------------------------------------------------------------------------
+// File name:   ROS_Odometry.ino
+// Date:        03/14/2022      
+//
+// Purpose:     Collect data (speed, direction and frequency) from the navigation node (in raspberry pi) and perform movement
+//              through the MSP432 microprocessor that this connected to a TI RSLK robot. 
+//              
+// Author:      Mario Brown
+//-------------------------------------------------------------------------------------------------------------------
+
 #include <Bump_Switch.h>
 #include <Encoder.h>
 #include <GP2Y0A21_Sensor.h>
